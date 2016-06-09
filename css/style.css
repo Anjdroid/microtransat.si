@@ -312,8 +312,9 @@ Main Components
   /*font-family: "Playfair Display", serif;*/
   font-weight: 700;
   line-height: 1.2;
-  color: #003057;
+  /*color: #003057;*/
   /*color: #003366;*/
+  color: #133055;
 }
 .cd-horizontal-timeline .events-content em {
   display: block;
