@@ -2,7 +2,7 @@ vsak 30 sponzorjev za svojo skupino do naslednjega tedna
 
 stran - barve:
 pantone:
-540c -> websafe: #003366 temno modra
+540c -> websafe: #003366 temno modra, #003057
 2995c -> websafe: #0099cc svetlo modra
 300c -> websafe: #0066cc srednja modra
 (modre)
