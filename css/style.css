@@ -47,7 +47,7 @@ Main Components
 
 .timeline-fullwidth {
   background: #0099cc;
-  height: 250px;
+  height: 200px;
   padding-top: 50px;
 }
 
@@ -248,7 +248,7 @@ Main Components
 .cd-horizontal-timeline .events-content {
   position: relative;
   width: 100%;
-  margin: 2em 0;
+  margin: 4em 0;
   overflow: hidden;
   -webkit-transition: height 0.4s;
   -moz-transition: height 0.4s;
