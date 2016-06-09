@@ -13,6 +13,7 @@ body {
     background-size: cover;
     background-position: center top;
     color: black; //#003366;
+    font-family: Corbel, sans-serif;
 }
 
 .footer {
@@ -43,19 +44,19 @@ CUSTOM NAVBAR
     border-radius: 0px;
     /*margin-bottom: 0px;*/
     /*margin-bottom: 100px;*/
-    height: 5em;
+    height: 5.5em;
     padding-bottom:100px;
 
 }
 
 .navbar-default .navbar-header{
     background: white;
-    height: 5em;
+    height: 5.5em;
 }
 
 .navbar-default .navbar-brand {
     color: rgba(255, 255, 255, 1);
-    height: 5em;
+    height: 5.5em;
 }
 
 .navbar-default .navbar-brand:hover,
@@ -68,9 +69,12 @@ CUSTOM NAVBAR
     color: #003366;
     background: white;
     /*line-height: 5.4em;*/
-    padding-top: 48px;
-    padding-bottom: 32px;
-    font-size: 1.3em;
+    padding-top: 70px;
+    padding-bottom: 29px;
+    font-size: 1.5em;
+    border-bottom: 2px solid white;
+    font-weight: bold;
+
 
 }
 
@@ -80,8 +84,9 @@ CUSTOM NAVBAR
 
 .navbar-default .navbar-nav>li>a:hover,
 .navbar-default .navbar-nav>li>a:focus {
-    color: white;
-    background: #0099cc;
+    /*color: white;*/
+    /*background: #0099cc;*/
+    border-bottom: 2px solid #003057;
 }
 .navbar-default .navbar-nav>.active>a,
 .navbar-default .navbar-nav>.active>a:hover,
@@ -113,7 +118,9 @@ CUSTOM NAVBAR
 
 #logo {
     height: 100%;
-    margin-left:15px;
+    margin-left:40px;
+    margin-top: 13px;
+    margin-right: 20px;
 }
 
 #content-front {
