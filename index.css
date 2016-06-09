@@ -126,10 +126,20 @@ CUSTOM NAVBAR
 #content-front {
     /*background-color:rgba(255,255,255,0.5);*/
     opacity: 1;
-    padding-top: 30em;
+    padding-top: 2em;
     padding-bottom: 2em;
-
 }
+
+
+@media only screen and (min-width: 768px) {
+    #content-front {
+        /*background-color:rgba(255,255,255,0.5);*/
+        opacity: 1;
+        padding-top: 30em;
+        padding-bottom: 2em;
+    }
+}
+
 
 .img {
     width: 100%;
