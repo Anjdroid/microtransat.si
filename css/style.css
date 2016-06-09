@@ -47,7 +47,7 @@ Main Components
 
 .timeline-fullwidth {
   background: #0099cc;
-  height: 17.3em;
+  min-height: 17.3em;
   padding-top: 5em;
 }
 
@@ -253,7 +253,7 @@ Main Components
   -webkit-transition: height 0.4s;
   -moz-transition: height 0.4s;
   transition: height 0.4s;
-  height: 45em;
+  min-height: 45em;
 }
 .cd-horizontal-timeline .events-content li {
   position: absolute;
@@ -322,7 +322,7 @@ Main Components
 }
 .cd-horizontal-timeline .events-content p {
   font-size: 1.4rem;
-  color: #959595;
+  /*color: #959595;*/
 }
 .cd-horizontal-timeline .events-content em, .cd-horizontal-timeline .events-content p {
   line-height: 1.6;

@@ -109,3 +109,11 @@ CUSTOM NAVBAR
     opacity: 1;
     padding: 5em;
 }
+
+.img {
+    width: 100%;
+}
+
+.first-image{
+    padding-bottom: 2em;
+}
