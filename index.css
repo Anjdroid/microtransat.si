@@ -100,6 +100,11 @@ CUSTOM NAVBAR
     background-color: #303030;
 }
 
+#nav-fullwidth {
+    padding-right: 0px;
+}
+
+
 #logo {
     height: 100%;
 }
