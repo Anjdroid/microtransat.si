@@ -40,9 +40,10 @@ CUSTOM NAVBAR
     -webkit-border-radius: 0px;
     -moz-border-radius: 0px;
     border-radius: 0px;
-    margin-bottom: 0px;
+    /*margin-bottom: 0px;*/
     /*margin-bottom: 100px;*/
     height: 80px;
+    padding-bottom:100px;
 
 }
 
@@ -52,7 +53,7 @@ CUSTOM NAVBAR
 
 .navbar-default .navbar-brand {
     color: rgba(255, 255, 255, 1);
-    height: 80px;
+    height: 5em;
 }
 
 .navbar-default .navbar-brand:hover,
@@ -62,21 +63,23 @@ CUSTOM NAVBAR
 }
 
 .navbar-default .navbar-nav>li>a {
-    color: white;
-    background: #0099cc;
-    height: 80px;
-    line-height: 50px;
+    color: #003366;
+    background: white;
+    /*line-height: 5.4em;*/
+    padding-top: 48px;
+    padding-bottom: 32px;
     font-size: 1.3em;
+
 }
 
 .navbar-default .navbar-collapse {
-    background: #0099cc;
+    background: white;
 }
 
 .navbar-default .navbar-nav>li>a:hover,
 .navbar-default .navbar-nav>li>a:focus {
-    color:  #003366;
-    background: white;
+    color: white;
+    background: #0099cc;
 }
 .navbar-default .navbar-nav>.active>a,
 .navbar-default .navbar-nav>.active>a:hover,
@@ -102,11 +105,13 @@ CUSTOM NAVBAR
 
 #nav-fullwidth {
     padding-right: 0px;
+    padding-left: 0px;
 }
 
 
 #logo {
     height: 100%;
+    margin-left:15px;
 }
 
 #content-front {
@@ -121,4 +126,12 @@ CUSTOM NAVBAR
 
 .first-image{
     padding-bottom: 2em;
+}
+
+#sponzorji {
+    font-weight: bold;
+    font-size: 2.6rem;
+    /*font-family: "Playfair Display", serif;*/
+    font-weight: 700;
+    line-height: 1.2;
 }
