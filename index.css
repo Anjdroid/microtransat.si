@@ -7,11 +7,12 @@ html {
 body {
     /* Margin bottom by footer height */
     /*margin-bottom: 40px;*/
-    background-image: url('./background.jpg');
+    background: linear-gradient( rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0.15) ), url('./background.jpg');
     background-color: white;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center top;
+    color: black; //#003366;
 }
 
 .footer {
@@ -42,13 +43,14 @@ CUSTOM NAVBAR
     border-radius: 0px;
     /*margin-bottom: 0px;*/
     /*margin-bottom: 100px;*/
-    height: 80px;
+    height: 5em;
     padding-bottom:100px;
 
 }
 
 .navbar-default .navbar-header{
     background: white;
+    height: 5em;
 }
 
 .navbar-default .navbar-brand {
@@ -84,8 +86,8 @@ CUSTOM NAVBAR
 .navbar-default .navbar-nav>.active>a,
 .navbar-default .navbar-nav>.active>a:hover,
 .navbar-default .navbar-nav>.active>a:focus {
-    color: rgba(85, 85, 85, 1);
-    background-color: rgba(231, 231, 231, 1);
+    color: white;
+    background-color: #003366;
   }
 
 .navbar-default .navbar-toggle {
@@ -96,11 +98,11 @@ CUSTOM NAVBAR
     background-color: white;
 }
 .navbar-default .navbar-toggle .icon-bar {
-    background-color: white;
+    background-color: #0099cc;
 }
 .navbar-default .navbar-toggle:hover .icon-bar,
 .navbar-default .navbar-toggle:focus .icon-bar {
-    background-color: #303030;
+    background-color: #003366;
 }
 
 #nav-fullwidth {
@@ -115,9 +117,11 @@ CUSTOM NAVBAR
 }
 
 #content-front {
-    background-color:rgba(255,255,255,0.5);
+    /*background-color:rgba(255,255,255,0.5);*/
     opacity: 1;
-    padding: 5em;
+    padding-top: 30em;
+    padding-bottom: 2em;
+
 }
 
 .img {
