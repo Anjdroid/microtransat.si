@@ -7,6 +7,11 @@ html {
 body {
     /* Margin bottom by footer height */
     /*margin-bottom: 40px;*/
+    background-image: url('./background.jpg');
+    background-color: white;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center top;
 }
 
 .footer {
@@ -97,4 +102,10 @@ CUSTOM NAVBAR
 
 #logo {
     height: 100%;
+}
+
+#content-front {
+    background-color:rgba(255,255,255,0.5);
+    opacity: 1;
+    padding: 5em;
 }

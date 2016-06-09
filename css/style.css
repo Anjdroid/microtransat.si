@@ -47,8 +47,8 @@ Main Components
 
 .timeline-fullwidth {
   background: #0099cc;
-  height: 200px;
-  padding-top: 50px;
+  height: 17.3em;
+  padding-top: 5em;
 }
 
 .cd-horizontal-timeline .timeline {
@@ -92,10 +92,10 @@ Main Components
   top: 49px;
   height: 2px;
   /* width will be set using JavaScript */
-  background: #dfdfdf;
-  -webkit-transition: -webkit-transform 0.4s;
-  -moz-transition: -moz-transform 0.4s;
-  transition: transform 0.4s;
+  background: white;
+  /*-webkit-transition: -webkit-transform 0.4s;*/
+  /*-moz-transition: -moz-transform 0.4s;*/
+  /*transition: transform 0.4s;*/
 }
 .cd-horizontal-timeline .filling-line {
   /* this is used to create the green line filling the timeline */
@@ -253,7 +253,7 @@ Main Components
   -webkit-transition: height 0.4s;
   -moz-transition: height 0.4s;
   transition: height 0.4s;
-  height: 579px;
+  height: 45em;
 }
 .cd-horizontal-timeline .events-content li {
   position: absolute;
@@ -302,7 +302,7 @@ Main Components
   animation-direction: reverse;
 }
 .cd-horizontal-timeline .events-content li > * {
-  max-width: 800px;
+  max-width: 80%;
   margin: 0 auto;
 }
 .cd-horizontal-timeline .events-content h2 {
