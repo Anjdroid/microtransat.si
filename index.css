@@ -13,7 +13,10 @@ body {
     background-size: cover;
     background-position: center top;
     color: black; //#003366;
+<<<<<<< HEAD
     font-family: Corbel, sans-serif;
+=======
+>>>>>>> 37742856fd1b4b20e4401e37c6c8120d3c202bac
 }
 
 .footer {
@@ -44,19 +47,31 @@ CUSTOM NAVBAR
     border-radius: 0px;
     /*margin-bottom: 0px;*/
     /*margin-bottom: 100px;*/
+<<<<<<< HEAD
     height: 5.5em;
+=======
+    height: 5em;
+>>>>>>> 37742856fd1b4b20e4401e37c6c8120d3c202bac
     padding-bottom:100px;
 
 }
 
 .navbar-default .navbar-header{
     background: white;
+<<<<<<< HEAD
     height: 5.5em;
+=======
+    height: 5em;
+>>>>>>> 37742856fd1b4b20e4401e37c6c8120d3c202bac
 }
 
 .navbar-default .navbar-brand {
     color: rgba(255, 255, 255, 1);
+<<<<<<< HEAD
     height: 5.5em;
+=======
+    height: 5em;
+>>>>>>> 37742856fd1b4b20e4401e37c6c8120d3c202bac
 }
 
 .navbar-default .navbar-brand:hover,
@@ -69,12 +84,18 @@ CUSTOM NAVBAR
     color: #003366;
     background: white;
     /*line-height: 5.4em;*/
+<<<<<<< HEAD
     padding-top: 70px;
     padding-bottom: 29px;
     font-size: 1.5em;
     border-bottom: 2px solid white;
     font-weight: bold;
 
+=======
+    padding-top: 48px;
+    padding-bottom: 32px;
+    font-size: 1.3em;
+>>>>>>> 37742856fd1b4b20e4401e37c6c8120d3c202bac
 
 }
 
@@ -84,9 +105,14 @@ CUSTOM NAVBAR
 
 .navbar-default .navbar-nav>li>a:hover,
 .navbar-default .navbar-nav>li>a:focus {
+<<<<<<< HEAD
     /*color: white;*/
     /*background: #0099cc;*/
     border-bottom: 2px solid #003057;
+=======
+    color: white;
+    background: #0099cc;
+>>>>>>> 37742856fd1b4b20e4401e37c6c8120d3c202bac
 }
 .navbar-default .navbar-nav>.active>a,
 .navbar-default .navbar-nav>.active>a:hover,
@@ -118,6 +144,7 @@ CUSTOM NAVBAR
 
 #logo {
     height: 100%;
+<<<<<<< HEAD
     margin-left:40px;
     margin-top: 13px;
     margin-right: 20px;
@@ -141,6 +168,19 @@ CUSTOM NAVBAR
 }
 
 
+=======
+    margin-left:15px;
+}
+
+#content-front {
+    /*background-color:rgba(255,255,255,0.5);*/
+    opacity: 1;
+    padding-top: 30em;
+    padding-bottom: 2em;
+
+}
+
+>>>>>>> 37742856fd1b4b20e4401e37c6c8120d3c202bac
 .img {
     width: 100%;
 }

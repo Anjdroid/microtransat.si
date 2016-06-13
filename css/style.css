@@ -54,9 +54,14 @@ Main Components
 .cd-horizontal-timeline .timeline {
   position: relative;
   height: 100px;
+<<<<<<< HEAD
   /*min-width: 50%;*/
   width: 90%;
   /*max-width: 90%;*/
+=======
+  width: 90%;
+  /*max-width: 800px;*/
+>>>>>>> 37742856fd1b4b20e4401e37c6c8120d3c202bac
   margin: 0 auto;
   /*background: #0099cc;*/
 }
@@ -313,9 +318,14 @@ Main Components
   /*font-family: "Playfair Display", serif;*/
   font-weight: 700;
   line-height: 1.2;
+<<<<<<< HEAD
   /*color: #003057;*/
   /*color: #003366;*/
   color: #133055;
+=======
+  color: #003057;
+  /*color: #003366;*/
+>>>>>>> 37742856fd1b4b20e4401e37c6c8120d3c202bac
 }
 .cd-horizontal-timeline .events-content em {
   display: block;
