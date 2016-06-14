@@ -15,80 +15,9 @@
 </head>
 
 <body>
-<nav class="navbar navbar-default">
-    <div id="nav-fullwidth" class="container-fluid">
-        <div class="navbar-header">
-            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
-                    data-target="#navcollapse"
-                    aria-expanded="false">
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-            </button>
-            <a class="navbar-brand" href="index.html">
-                <!--Microtransat-->
-                <img id="logo" src="img/logo/logo2barvnimali.jpg" alt="logo">
-            </a>
-            <!--kasneje logo-->
-        </div>
 
-        <div class="navbar-collapse collapse" id="navcollapse" style="z-index: 0">
-            <ul class="nav navbar-nav">
-
-                <!--<li><a href="">PROJEKT ˇ</a></li>-->
-                <li class="dropdown">
-                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="true">
-                        PROJEKT
-                        <span class="caret"></span>
-                    </a>
-                    <ul class="dropdown-menu">
-                        <li><a href="#">Opis Projekta</a></li>
-                        <li><a href="#">Opis Izziva</a></li>
-                        <li><a href="#">Terminski plan</a></li>
-                    </ul>
-                </li>
-
-                <!--<li><a href="">EKIPE ˇ</a></li>-->
-                <li class="dropdown">
-                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="true">
-                        EKIPE
-                        <span class="caret"></span>
-                    </a>
-                    <ul class="dropdown-menu">
-                        <li><a href="#">Aktuatorji</a></li>
-                        <li><a href="#">Dizajn trupa</a></li>
-                        <li><a href="#">Energija</a></li>
-                        <li><a href="#">Načrtovanje plovbe</a></li>
-                        <li><a href="#">Senzorika</a></li>
-                        <li><a href="#">UI Komunikacija</a></li>
-                        <li><a href="#">UI Navigator</a></li>
-                        <li><a href="#">Promocija</a></li>
-                    </ul>
-                </li>
-
-
-                <!--<li><a href="">MENTORJI ˇ</a></li>-->
-                <li class="dropdown">
-                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="true">
-                        MENTORJI
-                        <span class="caret"></span>
-                    </a>
-                    <ul class="dropdown-menu">
-                        <li><a href="#">Zavod 404</a></li>
-                        <li><a href="#">Univerza v Ljubljani</a></li>
-                        <li><a href="#">Ostali</a></li>
-                    </ul>
-                </li>
-
-
-                <li><a href="">SPONZORJI</a></li>
-                <li><a href="">NOVICE</a></li>
-                <li><a href="">ZA MEDIJE</a></li>
-            </ul>
-        </div>
-    </div>
-</nav>
-
+<!--NAVBAR - GLAVNI MENU-->
+<div w3-include-html="navbar.html"></div>
 
 <div>
 
@@ -251,7 +180,14 @@
 
 <script src="js/jquery-2.1.4.js"></script>
 <script src="js/jquery.mobile.custom.min.js"></script>
+
+<!-- za vključit meni -->
+<script src="http://www.w3schools.com/lib/w3data.js"></script>
 <script src="js/main.js"></script> <!-- Resource jQuery -->
+
+<script>
+    w3IncludeHTML();
+</script>
 
 </body>
 

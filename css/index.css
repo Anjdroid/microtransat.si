@@ -1,5 +1,5 @@
 html {
-    position: relative;
+    /*position: relative;*/
     min-height: 100%;
 }
 body {
@@ -21,8 +21,8 @@ body {
     /* Set the fixed height of the footer here */
     height: 40px;
     line-height: 40px;
-    padding: 0px;
-    margin: 0px;
+    padding: 0;
+    margin: 0;
     background-color: #003057;
     color: white;
     font-size: 18px;
@@ -40,11 +40,8 @@ CUSTOM NAVBAR
     -webkit-border-radius: 0px;
     -moz-border-radius: 0px;
     border-radius: 0px;
-    /*margin-bottom: 0px;*/
-    /*margin-bottom: 100px;*/
     height: 5.5em;
     padding-bottom:100px;
-
 }
 
 .navbar-default .navbar-header{
@@ -129,19 +126,19 @@ CUSTOM NAVBAR
 
 }
 
-.img {
-    width: 100%;
-}
+/*.img {*/
+    /*width: 100%;*/
+/*}*/
 
-.first-image{
-    padding-bottom: 2em;
-}
+/*.first-image{*/
+    /*padding-bottom: 2em;*/
+/*}*/
 
 #sponzorji {
     font-weight: bold;
     font-size: 2.6rem;
     /*font-family: "Playfair Display", serif;*/
-    font-weight: 700;
-    line-height: 1.2;
+    /*font-weight: 700;*/
+    /*line-height: 1.2;*/
 }
 
