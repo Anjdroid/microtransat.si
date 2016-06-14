@@ -8,7 +8,7 @@ html {
 body {
     /* Margin bottom by footer height */
     /*margin-bottom: 40px;*/
-    background: linear-gradient( rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0.15) ), url('./background.jpg');
+    background: linear-gradient( rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0.15) ), url('../background.jpg');
     background-color: white;
     background-repeat: no-repeat;
     background-size: cover;
