@@ -6,10 +6,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Microtransat</title>
-    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
-    <link rel="stylesheet" href="css/reset.css"> <!-- CSS reset -->
-    <link rel="stylesheet" href="css/style.css"> <!-- Resource style -->
-    <script src="js/modernizr.js"></script> <!-- Modernizr -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+    <!--<link rel="stylesheet" href="css/reset.css"> &lt;!&ndash; CSS reset &ndash;&gt;-->
+    <!--<link rel="stylesheet" href="css/style.css"> &lt;!&ndash; Resource style &ndash;&gt;-->
+
 
     <link rel="stylesheet" href="css/index.css"/>
 </head>
@@ -18,9 +19,79 @@
 
 <!-- NAVBAR - GLAVNI MENU -->
 <div w3-include-html="navbar.html"></div>
+<br>
 
 <!-- VSEBINA -->
-<div>
+<div class="row" style="background: white; text-align: left; padding-top: 20px;">
+    <div class="col-lg-8 col-lg-offset-2">
+        <article >
+            <h1>
+                Študenti Univerze v Ljubljani bomo izdelali prvo avtonomno jadrnico na svetu, ki bo preplula Atlantik
+            </h1>
+
+            <p class="summary">
+                Študenti Univerze v Ljubljani smo se odločili sprejeti mednarodni izziv Microtransat, ki
+                kljub številnim poskusom uglednih tujih univerz, že desetletje ostaja nerešen. V marcu 2016 smo začeli z
+                načrtovanjem in gradnjo jadrnice. Želimo si, da bi naša jadrnica čez dve leti, kot prva avtonomna jadrnica
+                na svetu, preplula Atlantik.
+            </p>
+
+            <p>
+                Gre za največji študentski interdisciplinarni projekt študentov Univerze v Ljubljani, ki ga izvajata
+                <a href="http://www.uni-lj.si" title="Univerza v Ljubljani">Univerza v Ljubljani</a> in
+                <a href="http://www.zavod404.si" title="Zavod 404">Zavod 404</a>.
+                Pri njem sodeluje okoli sto študentov s petih fakultet, članic Univerze v Ljubljani:
+            <ul>
+                <li>
+                    <a href="http://www.fe.uni-lj.si" title="Fakulteta za elektrotehniko">Fakultete za elektrotehniko</a>,
+                </li>
+                <li>
+                    <a href="http://www.fmf.uni-lj.si" title="Fakulteta za matematiko in fiziko">Fakultete za matematiko in
+                        fiziko</a>,
+                </li>
+                <li>
+                    <a href="http://www.fpp.uni-lj.si" title="Fakulteta za pomorstvo in promet">Fakultete za pomorstvo in
+                        promet</a>,
+                </li>
+                <li>
+                    <a href="http://www.fri.uni-lj.si" title="Fakulteta za računalništvo in informatiko">Fakultete za
+                        računalništvo in informatiko</a> in
+                </li>
+                <li>
+                    <a href="http://www.fs.uni-lj.si" title="Fakulteta za strojništvo">Fakultete za strojništvo</a>.
+                </li>
+            </ul>
+
+            Pri tem nas usmerjajo naši profesorji, uspešni raziskovalci ter strokovnjaki iz gospodarstva. Zaradi obsežnosti
+            projekta delujemo v osmih tehničnih skupinah, ki pokrivajo štiri različna ključna področja: elektroniko, umetno
+            inteligenco, strojništvo in jadralstvo.
+            </p>
+
+            <p>
+                Verjamemo v svoje znanje, v nas pa verjamejo tudi ugledni strokovnjaki, ki z nami že delijo svoje
+                neprecenljive izkušnje. Projekt sta že podprla
+                <strong>Gaber Bregant</strong> (<a href="http://www.oceantec.eu" title="Ocean tec">Ocean tec</a>)in
+                <strong>Andrej Justin</strong> (<a href="http://www.justinyachtdesign.com" title="Justin Yacht Design">Justin
+                Yacht Design</a>),
+                oba priznana strokovnjaka gradnje in snovanja plovil.
+            </p>
+
+            <p><strong>In zakaj smo se študenti lotili projekta?</strong></p>
+
+            <p>
+                <strong>Peter Jare</strong>, študent strojništva <em>Fakultete za strojništvo, Univerze v Ljubljani</em>,
+                pravi:
+            <blockquote><em>
+                Že sama ideja tekmovanja je neverjetno privlačna. Mislim, avtonomna jadrnica, ki sama prepotuje
+                atlantski ocean, kako naj to ne bi bilo zanimivo!?
+            </em></blockquote>
+            Študenti menimo, da imamo dovolj tehnološkega znanja, da pa bo največji izziv povezati tako veliko ekipo, da bo
+            delovala usklajeno. Pri tem nam s svojimi izkušnjami pomaga <strong>Rok Capuder</strong>, vodja Zavoda 404, ki
+            ima za seboj že kopico uspešnih projektov (prva slovenska podmornica Calypso, LEDCepelin, 3BOT, ...).
+            </p>
+
+        </article>
+    </div>
 
 
 </div>
@@ -32,9 +103,12 @@
     </div>
 </footer>
 
+<script src="js/modernizr.js"></script> <!-- Modernizr -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/less.js/2.5.3/less.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.0/jquery.js"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"
+        integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS"
+        crossorigin="anonymous"></script>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.11.1/moment.min.js"></script>
 <!--<script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.4.8/angular.min.js"></script>-->

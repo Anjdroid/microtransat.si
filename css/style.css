@@ -1,3 +1,8 @@
+/*za 1 stran*/
+ol, ul {
+  list-style: none;
+}
+
 /* --------------------------------
 
 Primary style
