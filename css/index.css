@@ -1,6 +1,3 @@
-
-/* Sticky footer styles
--------------------------------------------------- */
 html {
     position: relative;
     min-height: 100%;
@@ -8,29 +5,29 @@ html {
 body {
     /* Margin bottom by footer height */
     /*margin-bottom: 40px;*/
-    background: linear-gradient( rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0.15) ), url('../background.jpg');
+    background: linear-gradient( rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0.15) ), url('../img/background.jpg');
     background-color: white;
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center top;
+    background-position: center center;
     color: black; //#003366;
     font-family: Corbel, sans-serif;
 }
 
-.footer {
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-    /* Set the fixed height of the footer here */
-    height: 40px;
-    line-height: 40px;
-    padding: 0px;
-    margin: 0px;
-    background-color: rgba(30, 30, 30, 1);
-    color: white;
-    font-size: 18px;
-    font-weight: normal;
-}
+/*.footer {*/
+    /*position: absolute;*/
+    /*bottom: 0;*/
+    /*width: 100%;*/
+    /*!* Set the fixed height of the footer here *!*/
+    /*height: 40px;*/
+    /*line-height: 40px;*/
+    /*padding: 0px;*/
+    /*margin: 0px;*/
+    /*background-color: rgba(30, 30, 30, 1);*/
+    /*color: white;*/
+    /*font-size: 18px;*/
+    /*font-weight: normal;*/
+/*}*/
 
 /*
 CUSTOM NAVBAR
